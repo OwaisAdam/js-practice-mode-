@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CH:43-48 -->
+    <h1>CH:43-48</h1>
+    <!-- q1 -->
+    <h1>Q1</h1>
+  <h1> <a onclick="alert('Hello google...!')" href="#">Google</a></h1>
+
+
+    <!-- q2 -->
+   <h1>Q2</h1>
+   <img onclick="sam()" width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGzFPwhxQSRZYF1b63buPmYLfc27v1phhL1_gRWdCXMw&s" alt="">
+   <img onclick="sam()" width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiQxlUjM1kp1SOYlqGRHwp5YosExjG1Ny3okBmTQpMVA&s" alt="">
+   <img onclick="sam()" width="200px" src=" https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_320,q_50/lsci/db/PICTURES/CMS/320400/320457.png" alt="">
+   <img onclick="sam()" width="200px" src="https://propakistani.pk/wp-content/uploads/2023/03/Naseem-Shah.jpg" alt="">
+   <img onclick="sam()" width="200px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRquV4a4Znrw5JW45Oy8edcbjFhb9KPfNhawrjyP0Me_A&s" alt="">
+
+
+
+   <!-- q3 -->
+   <h1>Q3</h1>
+   <table id="studentTable">
+    <thead>
+        <tr>
+            <th>Index</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>0</td>
+            <td>owais</td>
+            <td>12</td>
+            <td><button onclick="deleteRow(0)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Adam</td>
+            <td>9</td>
+            <td><button onclick="deleteRow(1)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Mark</td>
+            <td>10</td>
+            <td><button onclick="deleteRow(2)">Delete</button></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Ghata</td>
+            <td>8</td>
+            <td><button onclick="deleteRow(3)">Delete</button></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<!-- q4 -->
+<h1>Q4</h1>
+
+<img src="https://yt3.googleusercontent.com/-WCYFhpqKRyPbs9-ernsouHzls8ZX1rxA5g3pt4eVxgF-qHGZcQyjKmuNxxv91imrhwk-KXdohA=s900-c-k-c0x00ffffff-no-rj" alt="" width="300" height="200" 
+     onmouseover="src='https:/encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA3TosHxBFDRRCFq--PZi6uH9fAtM3u0_3ouup2NOQtg&s'" 
+     onmouseout="src='https:/www.udacity.com/blog/wp-content/uploads/2021/01/Become-a-full-stack-web-developer_Blog-scaled.jpeg'">
+
+
+
+
+
+<!-- q5 -->
+<h1>Q5</h1>
+ <h2>Counter</h2>
+ <p>Counter: <span>0</span></p>
+ <button onclick="increaseCounter()">Increase</button>
+ <button onclick="decreaseCounter()">Decrease</button>
+
+
+  <!-- CH:43-48 -->
+  <h1>CH:43-48</h1>
+  <!-- q1 -->
+  <h1>Q1</h1>
+
+  <fieldset class="f">
+   <legend><h1>Signup Form</h1></legend>
+    <form id="signup-form">
+        <input class="form" id="firstname"  required onfocus="this.style.backgroundColor = 'rgb(166, 172, 230)'" onblur="this.style.backgroundColor = 'white'" type="text" placeholder="Firstname">
+        <br>
+        <br>
+        <input class="form" id="lastname" required onfocus="this.style.backgroundColor = 'rgb(166, 172, 230)'" onblur="this.style.backgroundColor = 'white'" type="text" placeholder="Lastname">
+        <br>
+        <br>
+        <input class="form" id="email" required onfocus="this.style.backgroundColor = 'rgb(166, 172, 230)'" onblur="this.style.backgroundColor = 'white'" type="email" placeholder="Email">
+        <br>
+        <br>
+        <input class="form" id="password" required onfocus="this.style.backgroundColor = 'rgb(166, 172, 230)'" onblur="this.style.backgroundColor = 'white'" type="password" placeholder="Password">
+        <br>
+        <br>
+        <br>
+        <button class="submit" type="submit">Sign up</button>
+
+
+    </form>
+
+  </fieldset>
+
+  <div id="display-data"></div>
+
+ <!-- q2 -->
+ <h1>Q2</h1>
+
+ <div class="item">
+    <h2>Item 1</h2>
+    <p>Short description of Item 1.</p>
+    <div class="details">
+        <p><strong>Full Detail:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla nec massa ut libero vehicula vulputate. Sed convallis ullamcorper justo, et porta magna porta nec. Integer ac purus at nunc congue mollis.</p>
+    </div>
+    <button class="read-more" onclick="toggleDetails(this)">Read more</button>
+</div>
+
+<div class="item">
+    <h2>Item 2</h2>
+    <p>Short description of Item 2.</p>
+    <div class="details">
+        <p><strong>Full Detail:</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+    </div>
+    <button class="read-more" onclick="toggleDetails(this)">Read more</button>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="app.js"></script>
+</html>
